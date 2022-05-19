@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <form action="#" method="post">
-        <input type="text" name="texto" id="inpText">
-        <input type="button" value="Confirmar" onclick="clickButton()">
-        <input type="button" value="Adicionar" onclick="addItem()">
-    </form>
-
+    <h1>Lista de Tarefas</h1>
+    <div class="content">
+        <input type="text" name="texto" id="inpText" placeholder="Escreva um novo item">  
+        <input type="button" id="inpButton" value="Inserir" onclick="addItem()">
+    </div>
+    
     <ul id="list_itens">
 
     </ul>

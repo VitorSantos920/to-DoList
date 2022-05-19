@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 body {
-    font-family:cursive;
+    font-family: sans-serif;
+}
+
+.content {
+    height: 50px;
+    width: 420px;
+    box-shadow: 1px 5px 12px rgb(143, 143, 143);
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+}
+
+#inpText{
+    background-color: rgb(228, 228, 228);
+    width: 300px;
+    height: 40px;
+    outline: 0;
+}
+
+#inpText, #inpButton{
+    border: none;
+
+}  
+
+#inpButton {
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 10px 0 0 7px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
