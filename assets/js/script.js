@@ -3,12 +3,13 @@ function addItem(){
 
     // Verificação se o campo está vazio
     if(campo.value.trim()){ // .trim() para remover espaços em branco
-        let elemento = document.createElement("li"); // Criando item HTML 'li' | Armazenando em -> 'item'
-    
-        elemento.innerHTML = campo.value; // 'Conteúdo do elemento criado (li) terá como conteúdo o valor do input'
+        let template = document.getElementById("template").content.cloneNode(true);
+        let input = document.getElementById("inpText");
+        let li = template.querySelector("li");
+        
+        li.append(input.value);
+        document.getElementById("list_itens").append(li);
 
-        document.body.append(elemento); // 'Adicionando ao fim do body, o elemento criado com seu conteúdo'.
-        campo.value = " ";
     } else{
         alert("Insira um texto")
     }
