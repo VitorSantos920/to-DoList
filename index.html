@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do List</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <h1>Lista de Tarefas</h1>
-    <div class="content">
-        <input type="text" name="texto" id="inpText" placeholder="Escreva um novo item">  
-        <input type="button" id="inpButton" value="Inserir" onclick="adicionarTarefas()">
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-do List</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <h1>Lista de Tarefas</h1>
+        <div class="content">
+            <input type="text" name="texto" id="inpText" placeholder="Escreva um novo item">  
+            <input type="button" id="inpButton" value="Inserir" onclick="adicionarTarefas()">
+        </div>
 
-    <template id="template">
-        <li>
-            <input type="button" id="removeButton" value="Remover" onclick="removerItem()">
-            <input type="button" value="Remover">
-        </li>
-    </template>
-    
-    <ul id="list_itens">
+        <template id="template">
+            <li>
+                <input type="button" id="removeButton" value="Remover" onclick="removerItem()">
+            </li>
+        </template>
         
-    </ul>
+        <ul id="list_itens">
+            
+        </ul>
 
-    <script src="assets/js/script.js"></script>
-</body>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>

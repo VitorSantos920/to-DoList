@@ -47,7 +47,7 @@ body {
     transition: 0.5s;
 }
 
-li {
+li{
     list-style-type: none;
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
