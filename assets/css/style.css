@@ -39,12 +39,15 @@ body {
     margin-left: 60px;
     background-color: white;
     border-radius: 5px;
+<<<<<<< HEAD
     transition: 0.5s;
 }
 
 #inpButton:hover{
     background-color: rgb(62, 177, 62);
     transition: 0.5s;
+=======
+>>>>>>> 43a43f5f112358f01d417b01c2f0955ce4480ec9
 }
 
 li {
@@ -53,6 +56,7 @@ li {
     border-radius: 5px;
     margin-bottom: 10px;
     height: 40px;
+<<<<<<< HEAD
     width: 100%;
     padding: 18px 0 0 10px;
     position: relative;
@@ -75,3 +79,9 @@ li {
     transition: 0.5s;
 }
 
+=======
+    width: 420px;
+    padding: 18px 0 0 10px;
+
+}
+>>>>>>> 43a43f5f112358f01d417b01c2f0955ce4480ec9
