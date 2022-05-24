@@ -23,6 +23,10 @@ body {
     outline: 0;
 }
 
+#list_itens {
+    padding: 0;
+}
+
 #inpText, #inpButton{
     border: none;
 
@@ -35,6 +39,12 @@ body {
     margin-left: 60px;
     background-color: white;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+#inpButton:hover{
+    background-color: rgb(62, 177, 62);
+    transition: 0.5s;
 }
 
 li {
@@ -43,7 +53,25 @@ li {
     border-radius: 5px;
     margin-bottom: 10px;
     height: 40px;
-    width: 420px;
+    width: 100%;
     padding: 18px 0 0 10px;
-
+    position: relative;
 }
+
+#removeButton {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    background-color: white;
+    border: none;
+    height: 36px;
+    width: 90px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#removeButton:hover {
+    background-color: rgb(255, 78, 78);
+    transition: 0.5s;
+}
+

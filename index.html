@@ -11,12 +11,12 @@
     <h1>Lista de Tarefas</h1>
     <div class="content">
         <input type="text" name="texto" id="inpText" placeholder="Escreva um novo item">  
-        <input type="button" id="inpButton" value="Inserir" onclick="addItem()">
+        <input type="button" id="inpButton" value="Inserir" onclick="adicionarTarefas()">
     </div>
 
     <template id="template">
         <li>
-            <input type="button" value="Remover">
+            <input type="button" id="removeButton" value="Remover" onclick="removerItem()">
         </li>
     </template>
     
