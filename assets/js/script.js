@@ -22,6 +22,5 @@ function adicionarTarefas() {
 
 function removerItem() {
     let li = document.querySelector("li");
-
-    li.remove(li)
+    li.remove(li);
 }

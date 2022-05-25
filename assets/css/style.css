@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
-    margin-left: 40px;
     display: inline-block;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100vw;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid black;
 }
 
 .content {
@@ -53,7 +67,7 @@ li{
     border-radius: 5px;
     margin-bottom: 10px;
     height: 40px;
-    width: 100%;
+    width: 400px;
     padding: 18px 0 0 10px;
     position: relative;
 }
